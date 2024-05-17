@@ -30,8 +30,7 @@ export async function HandleCreateProspect(
     const response = await axios<{ docs: [any] }>({
       method: "POST",
       url: "/api/crm/create/prospect",
-      baseURL: "http://127.0.0.1:7077",
-      // baseURL: "https://erpnext-demo.theadvisorylab.net",
+      baseURL: variables.ERP_LOCAL_BASEURL,
       headers: {
         Authorization: `Bearer ${token?.clientCredentials?.access_token}`,
       },

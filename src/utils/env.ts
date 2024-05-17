@@ -27,6 +27,7 @@ export const variables = {
   ENVIRONMENT: String(process.env.ENVIRONMENT),
 
   ERP_BASEURL: String(process.env.ERP_BASEURL),
+  ERP_LOCAL_BASEURL: String(process.env.ERP_LOCAL_BASEURL),
   ERP_APIKEY: String(process.env.ERP_APIKEY),
   ERP_APISECRET: String(process.env.ERP_APISECRET),
 };
