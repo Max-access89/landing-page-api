@@ -1,8 +1,0 @@
-fields: ["`tabOpportunity`.`name`","`tabOpportunity`.`owner`","`tabOpportunity`.`creation`","`tabOpportunity`.`modified`","`tabOpportunity`.`modified_by`","`tabOpportunity`.`_user_tags`","`tabOpportunity`.`_comments`","`tabOpportunity`.`_assign`","`tabOpportunity`.`_liked_by`","`tabOpportunity`.`docstatus`","`tabOpportunity`.`idx`","`tabOpportunity`.`naming_series`","`tabOpportunity`.`opportunity_from`","`tabOpportunity`.`status`","`tabOpportunity`.`opportunity_type`","`tabOpportunity`.`opportunity_amount`","`tabOpportunity`.`total`","`tabOpportunity`.`title`","`tabOpportunity`.`customer_name`","`tabOpportunity`.`_seen`","`tabOpportunity`.`currency`"]
-filters: [["Opportunity","opportunity_type","=","Sales"]]
-order_by: `tabOpportunity`.`modified` DESC
-start: 0
-page_length: 20
-view: List
-group_by: `tabOpportunity`.`name`
-with_comment_count: true
